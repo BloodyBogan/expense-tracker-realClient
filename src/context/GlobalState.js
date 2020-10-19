@@ -2,7 +2,7 @@ import React, { createContext, useReducer } from 'react';
 import AppReducer from './AppReducer';
 import axios from 'axios';
 
-const URL = '/api/v1/transactions';
+const URL = 'https://expense-tracker-mk.herokuapp.com/api/v1/transactions';
 
 // Initial State
 const initialState = {
